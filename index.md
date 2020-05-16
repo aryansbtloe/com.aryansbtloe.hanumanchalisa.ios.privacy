@@ -20,9 +20,9 @@
     values[ key ] = value
     return values
   }, {}).product;
-  debugger;
-  alert(product_name)
-  document.getElementsByClassName(product_name)=product_name;
+ 
+  var x = document.getElementsByClassName(product_name)=product_name;
+  x[0].innerHTML = product_name;
   </script>
 </head>
 <body>
