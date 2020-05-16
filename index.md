@@ -1,4 +1,4 @@
-<html>
+<html>goo
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
@@ -10,6 +10,18 @@
     p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
   </style>
+  
+  <script>
+  var product = decodeURI(window.location.search)
+  .replace('?', '')
+  .split('&')
+  .map(param => param.split('='))
+  .reduce((values, [ key, value ]) => {
+    values[ key ] = value
+    return values
+  }, {});
+  alert(product)
+  </script>
 </head>
 <body>
 <p class="p1"><span class="s1">           </span></p>
