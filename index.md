@@ -22,6 +22,7 @@
   }, {}).product;
   debugger;
   alert(product_name)
+  document.getElementsByClassName(product_name)=product_name;
   </script>
 </head>
 <body>
