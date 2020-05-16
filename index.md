@@ -21,7 +21,7 @@
     return values
   }, {}).product;
  
-  var x = document.getElementsByClassName("product_name")=product_name;
+  var x = document.getElementsByClassName("product_name");
   debugger;
   x[0].innerHTML = product_name;
   </script>
