@@ -20,6 +20,7 @@
     values[ key ] = value
     return values
   }, {});
+  debugger;
   alert(product)
   </script>
 </head>
